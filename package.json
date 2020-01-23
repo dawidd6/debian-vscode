@@ -1,0 +1,54 @@
+{
+    "name": "debian-vscode",
+    "displayName": "Debian",
+    "description": "Debian oackaging files support for VSCode",
+    "version": "0.0.1",
+    "license": "MIT",
+    "icon": "images/debian.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dawidd6/debian-vscode.git"
+    },
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "debian-control",
+                "aliases": [
+                    "Debian Control"
+                ],
+                "filenames": [
+                    "control"
+                ],
+                "configuration": "./languages/debian-control.language-configuration.json"
+            },
+            {
+                "id": "debian-changelog",
+                "aliases": [
+                    "Debian Changelog"
+                ],
+                "filenames": [
+                    "changelog"
+                ],
+                "configuration": "./languages/debian-changelog.language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "debian-control",
+                "scopeName": "debian-control",
+                "path": "./syntaxes/debian-control.tmGrammar.json"
+            },
+            {
+                "language": "debian-changelog",
+                "scopeName": "debian-changelog",
+                "path": "./syntaxes/debian-changelog.tmGrammar.json"
+            }
+        ]
+    }
+}
