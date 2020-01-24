@@ -5,6 +5,7 @@
     "version": "0.1.0",
     "license": "MIT",
     "icon": "images/debian.png",
+    "publisher": "dawidd6",
     "repository": {
         "type": "git",
         "url": "https://github.com/dawidd6/debian-vscode.git"
