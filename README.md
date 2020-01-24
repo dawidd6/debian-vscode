@@ -1,6 +1,8 @@
 # debian-vscode
 
-A Visual Studio Code extension adding syntax highlighting support for Debian packaging files. Currently implemented:
+A Visual Studio Code extension adding syntax highlighting support for Debian packaging files.
+
+Currently implemented:
 
 - `debian/control`
 - `debian/copyright`
