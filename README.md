@@ -8,5 +8,7 @@ A Visual Studio Code extension adding syntax highlighting support for Debian pac
 - `debian/upstream/metadata`
 
 ![control](images/control.png)
+
 ![copyright](images/copyright.png)
+
 ![changelog](images/changelog.png)
