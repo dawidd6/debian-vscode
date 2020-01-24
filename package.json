@@ -1,7 +1,7 @@
 {
     "name": "debian-vscode",
     "displayName": "Debian",
-    "description": "Debian oackaging files support for VSCode",
+    "description": "Debian packaging files support for VSCode",
     "version": "0.0.1",
     "license": "MIT",
     "icon": "images/debian.png",
