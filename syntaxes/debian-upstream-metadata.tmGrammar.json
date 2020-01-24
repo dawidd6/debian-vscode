@@ -1,0 +1,43 @@
+{
+	"scopeName": "debian-upstream-metadata",
+	"patterns": [
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#key"
+		},
+		{
+			"include": "#email"
+		}
+	],
+	"repository": {
+		"comment": {
+			"patterns": [
+				{
+					"comment": "A comment line",
+					"match": "^#.*$",
+					"name": "comment.line.number-sign"
+				}
+			]
+		},
+		"key": {
+			"patterns": [
+				{
+					"comment": "A key before colon",
+					"match": "^[A-Z][a-zA-Z-]+:",
+					"name": "keyword.control"
+				}
+			]
+		},
+		"email": {
+			"patterns": [
+				{
+					"comment": "An email",
+					"match": "<.+@.+[.].+>",
+					"name": "variable.language"
+				}
+			]
+		}
+	}
+}

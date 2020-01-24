@@ -28,6 +28,16 @@
                 "configuration": "./languages/debian-control.language-configuration.json"
             },
             {
+                "id": "debian-copyright",
+                "aliases": [
+                    "Debian Copyright"
+                ],
+                "filenames": [
+                    "copyright"
+                ],
+                "configuration": "./languages/debian-copyright.language-configuration.json"
+            },
+            {
                 "id": "debian-changelog",
                 "aliases": [
                     "Debian Changelog"
@@ -36,6 +46,16 @@
                     "changelog"
                 ],
                 "configuration": "./languages/debian-changelog.language-configuration.json"
+            },
+            {
+                "id": "debian-upstream-metadata",
+                "aliases": [
+                    "Debian Upstream Metadata"
+                ],
+                "filenames": [
+                    "metadata"
+                ],
+                "configuration": "./languages/debian-upstream-metadata.language-configuration.json"
             }
         ],
         "grammars": [
@@ -45,9 +65,19 @@
                 "path": "./syntaxes/debian-control.tmGrammar.json"
             },
             {
+                "language": "debian-copyright",
+                "scopeName": "debian-copyright",
+                "path": "./syntaxes/debian-copyright.tmGrammar.json"
+            },
+            {
                 "language": "debian-changelog",
                 "scopeName": "debian-changelog",
                 "path": "./syntaxes/debian-changelog.tmGrammar.json"
+            },
+            {
+                "language": "debian-upstream-metadata",
+                "scopeName": "debian-upstream-metadata",
+                "path": "./syntaxes/debian-upstream-metadata.tmGrammar.json"
             }
         ]
     }
