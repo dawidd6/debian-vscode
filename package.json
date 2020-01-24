@@ -2,7 +2,7 @@
     "name": "debian-vscode",
     "displayName": "Debian",
     "description": "Debian packaging files syntax highlighting support for VSCode",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "license": "MIT",
     "icon": "images/debian.png",
     "publisher": "dawidd6",
