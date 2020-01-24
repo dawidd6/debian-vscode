@@ -8,7 +8,7 @@
 			"include": "#key"
 		},
 		{
-			"include": "#sub"
+			"include": "#substvar"
 		},
 		{
 			"include": "#email"
@@ -33,7 +33,7 @@
 				}
 			]
 		},
-		"sub": {
+		"substvar": {
 			"patterns": [
 				{
 					"comment": "A substvar",
